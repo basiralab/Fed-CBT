@@ -3,7 +3,7 @@ Federated pipeline for integrating a set of brain connectomics into a single gra
 
 Please contact hizircanbayram@gmail.com for inquiries. Thanks. 
 
-![main_figure](https://user-images.githubusercontent.com/23126077/132989625-fcc6865d-e8df-42f1-affc-1200dbec5b9f.jpg)
+![main_figure](figure1.png)
 
 # Introduction
 This work is accepted at the MICCAI 2021 workshop on  Multimodal Learning and Fusion Across Scales for Clinical Decision Support Strasbourg, France.
@@ -67,7 +67,7 @@ $ python demo.py
 | output/dataset/strategy | After the training, this directory includes loss curves, models, CBTs for each test graph, final loss values and population CBT for each fold. |
   
 ## Example Result  
-![results](https://user-images.githubusercontent.com/23126077/132991881-4c3a36e3-ad58-440a-8917-85f50474478a.png) <br>
+![results](figure2.png) <br>
 The figure compares CBTs of a population of the first device's subjects in the first fold where each subject has 6 views (each represented by 35 by 35 matrix). Our code takes in a numpy array of size [37, 35, 35, 6] and outputs a 35 by 35 matrix.
 
 
