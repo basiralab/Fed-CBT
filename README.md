@@ -8,7 +8,7 @@ Please contact hizircanbayram@gmail.com for inquiries. Thanks.
 # Introduction
 This work is accepted at the MICCAI 2021 workshop on  Multimodal Learning and Fusion Across Scales for Clinical Decision Support Strasbourg, France.
 
-> **A Federated Multigraph Integration Approach for Connectional Brain Template Learninges**
+> **A Federated Multigraph Integration Approach for Connectional Brain Template Learning**
 >
 > Hızır Can Bayram and Islem Rekik
 >
@@ -71,14 +71,14 @@ $ python demo.py
 The figure compares CBTs of a population of the first device's subjects in the first fold where each subject has 6 views (each represented by 35 by 35 matrix). Our code takes in a numpy array of size [37, 35, 35, 6] and outputs a 35 by 35 matrix.
 
 
-## YouTube videos to install and run the code and understand how Fed-CBT works
-
-To learn about how Fed-CBT works, check the following YouTube video: 
-
-Coming up soon.
-
-
 ## Please cite the following paper when using Fed-CBT
-```latex
-   ...
+```
+@inproceedings{bayram2021federated,
+  title={A Federated Multigraph Integration Approach for Connectional Brain Template Learning},
+  author={Bayram, H{\i}z{\i}r Can and Rekik, Islem},
+  booktitle={International Workshop on Multimodal Learning for Clinical Decision Support},
+  pages={36--47},
+  year={2021},
+  organization={Springer}
+}
 ```
